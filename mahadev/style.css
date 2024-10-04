@@ -11,13 +11,16 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px 0px;
     text-align: center;
+    height: 50px;
 }
 
-header h1 {
+header h6 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 1.5em;
+    float: left;
+    margin-left: 20px;
 }
 
 nav ul {
@@ -28,6 +31,8 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    float:right;
+    margin-right: 30px;
 }
 
 nav ul li a {
@@ -68,6 +73,12 @@ footer {
 a {
     color: #333;
 }
+#about {
+    background-color: #f0f0f0; /* Replace with your desired color */
+    padding: 20px; /* Optional: adds some padding inside the section */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
 .profile-image {
     width: 150px;
     height: 150px;
@@ -78,4 +89,37 @@ a {
     display: block;
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section {
+    background-image: url('./images/bg\ intro.avif'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    
+}
+
+.intro-image {
+    border-radius: 50%;
+    width: 350px; /* Adjust size as needed */
+    height: 350px; /* Adjust size as needed */
+    margin-bottom: 40px;
+    margin-left: 150px;
+    float: right;
+}
+
+.intro-content {
+    backdrop-filter: blur(5px); /* Optional: Adds as blur effect to the background */
+    padding: 20px;
+    float: right;
+}
+h1 {
+    font-size: 3em; /* Adjust size as needed */
+    line-height: 1.2; /* Adjust line height for spacing between lines */
+    text-align: center; /* Optional: centers  the text */
 }
