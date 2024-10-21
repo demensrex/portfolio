@@ -61,6 +61,7 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
+   
 }
 
 /* Projects section */
@@ -69,8 +70,19 @@ footer {
     padding: 10px;
     margin-bottom: 15px;
     border-left: 5px solid #333;
-}
 
+}
+.projects{
+    display: flex;
+    padding-left: 30px;
+    height: 68.7vh;
+}
+ .project-item{
+    flex: 1 1 30%; /* Adjust the width as needed, e.g., 30% for three items per row */
+    margin: 10px; /* Adds space between project items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    text-align: center;
+} 
 a {
     color: #333;
 }
