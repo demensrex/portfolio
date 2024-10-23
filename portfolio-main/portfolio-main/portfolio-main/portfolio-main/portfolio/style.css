@@ -61,6 +61,7 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
+   
 }
 
 /* Projects section */
@@ -69,8 +70,19 @@ footer {
     padding: 10px;
     margin-bottom: 15px;
     border-left: 5px solid #333;
-}
 
+}
+.projects{
+    display: flex;
+    padding-left: 30px;
+    height: 68.7vh;
+}
+ .project-item{
+    flex: 1 1 30%; /* Adjust the width as needed, e.g., 30% for three items per row */
+    margin: 10px; /* Adds space between project items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    text-align: center;
+} 
 a {
     color: #333;
 }
@@ -212,7 +224,7 @@ h1 {
     background-image: url('C:\Users\MACFAST\Downloads\portfolio-main\portfolio\images\BGEDU.jpg'); /* Add your background image here */
 
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    background-image:
+
 }
 
 .education-item h3 {
@@ -236,8 +248,44 @@ h1 {
 
 /* Education Section Styles */
 #education {
-    background-color: #f7f7f7; /* Light background for the section */
+    background-color: #fffafa; /* Light background for the section */
     padding: 40px; /* Extra padding*/
     html {
     scroll-behavior: smooth;
+}
+/* Navigation Bar Styles */
+.edubar {
+    background-color: rgb(34, 32, 32); /* Background color for the navigation bar */
+    height: 10vh;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between title and menu */
+    align-items: center; /* Center items vertically */
+    padding: 0 2vh; /* Horizontal padding */
+}
+
+.nav-title {
+    font-size: 1.5rem; /* Font size for the title */
+    margin-right: auto; /* Push the nav list to the right */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Align items in a row */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between links */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Font size for links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 }

@@ -165,12 +165,6 @@ h1 {
     flex: 1 1 150px; /* Flexible size with a minimum width */
     text-align: center; /* Center text inside blocks */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    transition: background-color 0.3s; /* Smooth transition */
-
-}
-.skill-block:hover {
-    background-color: #ebb113; /* Change to your desired hover color */
-    color: white; /* Change text color on hover */
 }
 .contact-section {
     position: relative; /* Position relative for absolute elements inside */
@@ -180,12 +174,6 @@ h1 {
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center content horizontally */
     text-align: center; /* Center text */
-    background-color: #0d3750; /* Change this to your desired background color */
-    padding: 20px; /* Optional: add padding */
-}
-.contact-heading {
-    font-weight: bold; /* Makes the heading bold */
-    color: white;
 }
 
 .contact-info {
@@ -208,11 +196,8 @@ h1 {
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 5px;
-    background-color: #1f1c1c;
-    background-image: url('C:\Users\MACFAST\Downloads\portfolio-main\portfolio\images\BGEDU.jpg'); /* Add your background image here */
-
+    background-color: #f9f9f9;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    background-image:
 }
 
 .education-item h3 {
@@ -222,7 +207,7 @@ h1 {
 
 .education-item p {
     margin: 5px 0;
-    color: #ffffff;
+    color: #555;
 }
 
 .icon {
