@@ -61,6 +61,7 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
+   
 }
 
 /* Projects section */
@@ -69,34 +70,45 @@ footer {
     padding: 10px;
     margin-bottom: 15px;
     border-left: 5px solid #333;
-}
 
+}
+.projects{
+    display: flex;
+    padding-left: 30px;
+    height: 68.7vh;
+}
+ .project-item{
+    flex: 1 1 30%; 
+    margin: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+} 
 a {
-    color: #333;
+    color: #f8f1f1;
 }
 #about {
-    display: flex; /* Use flexbox for layout */
-    background-color:goldenrod; /* Light background color */
-    padding: 20px; /* Add padding for spacing */
+    display: flex; 
+    background-color:goldenrod; 
+    padding: 20px; 
     height: 450px;
 }
 
 .about-container {
-    display: flex; /* Flex container for vertical alignment */
-    width: 100%; /* Full width */
+    display: flex; 
+    width: 100%; 
 }
 
 .about-heading {
-    writing-mode: vertical-rl; /* Rotate the heading to vertical */
-    transform: rotate(180deg); /* Rotate back to readable format */
-    font-size: 56px; /* Adjust font size as needed */
-    width: 30%; /* Set width to 30% */
-    margin-right: 20px; /* Space between heading and content */
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+    font-size: 56px;
+    width: 30%; 
+    margin-right: 20px; 
     margin-bottom: 75px;
 }
 
 .about-content {
-    width: 70%; /* Set width to 70% */
+    width: 70%; 
     padding-right: 60px;
 }
 
@@ -113,10 +125,10 @@ a {
 }*/
 
 .intro-section {
-    background-image: url('./images/bg\ intro.avif'); /* Replace with your background image */
+    background-image: url('./images/bg\ intro.avif'); 
     background-size: cover;
     background-position: center;
-    height: 600px; /* Adjust height as needed */
+    height: 600px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,81 +139,83 @@ a {
 
 .intro-image {
     border-radius: 50%;
-    width: 500px; /* Adjust size as needed */
-    height: 500px; /* Adjust size as needed */
+    width: 500px; 
+    height: 500px; 
     margin-bottom: 40px;
     margin-left: 150px;
     float: right;
 }
 
 .intro-content {
-    backdrop-filter: blur(5px); /* Optional: Adds as blur effect to the background */
+    backdrop-filter: blur(5px); 
     padding: 20px;
     float: right;
 }
 h1 {
-    font-size: 3em; /* Adjust size as needed */
-    line-height: 1.2; /* Adjust line height for spacing between lines */
-    text-align: center; /* Optional: centers  the text */
+    font-size: 3em; 
+    line-height: 1.2; 
+    text-align: center; 
 }
 #skills {
-    background-color:#855e35;  /* Light background color */
-    padding: 20px; /* Add padding for spacing */
-    border-radius: 8px; /* Optional: Rounded corners */
+    background-color:#855e35;  
+    padding: 20px; 
+    border-radius: 8px;
     text-align: center;
 }
 
 .skills-container {
-    display: flex; /* Use flexbox for layout */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    gap: 15px; /* Space between skill blocks */
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 15px;
 }
 
 .skill-block {
-    background-color: #333; /* Dark background for skill blocks */
-    color: #fff; /* White text color */
-    padding: 15px 20px; /* Padding inside each block */
-    border-radius: 5px; /* Rounded corners for blocks */
-    flex: 1 1 150px; /* Flexible size with a minimum width */
-    text-align: center; /* Center text inside blocks */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    transition: background-color 0.3s; /* Smooth transition */
+    background-color: #333;
+    color: #fff; 
+    padding: 15px 20px; 
+    border-radius: 5px; 
+    flex: 1 1 150px; 
+    text-align: center; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; 
 
 }
 .skill-block:hover {
-    background-color: #ebb113; /* Change to your desired hover color */
-    color: white; /* Change text color on hover */
+    background-color: #ebb113;
+    color: white; 
 }
 .contact-section {
-    position: relative; /* Position relative for absolute elements inside */
-    height: 400px; /* Set a height for the section */
-    color: #fff; /* White text color */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center; /* Center text */
-    background-color: #0d3750; /* Change this to your desired background color */
-    padding: 20px; /* Optional: add padding */
+    position: relative;
+    height: 400px; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+    background-color: #121213;
+    padding: 20px;
 }
 .contact-heading {
-    font-weight: bold; /* Makes the heading bold */
+    font-weight: bold; 
     color: white;
 }
 
 .contact-info {
-   /* justify-content: flex-end; /* Align items to the right */
+   /* justify-content: flex-end; */
    
 
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-    padding: 20px; /* Add padding */
-    border-radius: 10px; /* Rounded corners */
-    position:absolute; /* Position it over the map */
-    bottom: 20px; /* Adjust positioning */
-    left: 20%; /* Center horizontally */
-    transform: translateX(-50%); /* Center adjustment */
-    width: 80%; /* Control width of contact info */
-    max-width: 400px; /* Maximum width for better responsiveness */
-   /* margin-left: 160px;*/
+    background-color:rgb(36, 36, 36);/* rgba(12, 12, 12, 0.5); */
+
+    padding: 20px; 
+    border-radius: 10px; 
+    position:absolute; 
+    bottom: 55px; 
+    right: 20px; 
+    transform: translateX(-50%); 
+    width: 80%; 
+    max-width: 400px; 
+    
+   
     
 }
 .education-item {
@@ -209,10 +223,10 @@ h1 {
     padding: 15px;
     border-radius: 5px;
     background-color: #1f1c1c;
-    background-image: url('C:\Users\MACFAST\Downloads\portfolio-main\portfolio\images\BGEDU.jpg'); /* Add your background image here */
+    background-image: url('C:\Users\MACFAST\Downloads\portfolio-main\portfolio\images\BGEDU.jpg'); 
 
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    background-image:
+
 }
 
 .education-item h3 {
@@ -236,8 +250,44 @@ h1 {
 
 /* Education Section Styles */
 #education {
-    background-color: #f7f7f7; /* Light background for the section */
-    padding: 40px; /* Extra padding*/
+    background-color: #fffafa; 
+    padding: 40px; 
     html {
     scroll-behavior: smooth;
+}
+/* Navigation Bar Styles */
+.edubar {
+    background-color: rgb(34, 32, 32); 
+    height: 10vh;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 2vh;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    margin-right: auto; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
 }
