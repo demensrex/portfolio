@@ -224,7 +224,7 @@ h1 {
     background-image: url('C:\Users\MACFAST\Downloads\portfolio-main\portfolio\images\BGEDU.jpg'); /* Add your background image here */
 
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-
+    background-image:
 }
 
 .education-item h3 {
@@ -248,44 +248,8 @@ h1 {
 
 /* Education Section Styles */
 #education {
-    background-color: #fffafa; /* Light background for the section */
+    background-color: #f7f7f7; /* Light background for the section */
     padding: 40px; /* Extra padding*/
     html {
     scroll-behavior: smooth;
-}
-/* Navigation Bar Styles */
-.edubar {
-    background-color: rgb(34, 32, 32); /* Background color for the navigation bar */
-    height: 10vh;
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between title and menu */
-    align-items: center; /* Center items vertically */
-    padding: 0 2vh; /* Horizontal padding */
-}
-
-.nav-title {
-    font-size: 1.5rem; /* Font size for the title */
-    margin-right: auto; /* Push the nav list to the right */
-}
-
-nav ul {
-    list-style: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Align items in a row */
-}
-
-nav ul li {
-    margin-left: 20px; /* Space between links */
-}
-
-nav ul li a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
-    font-size: 1.2rem; /* Font size for links */
-}
-
-nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
 }
