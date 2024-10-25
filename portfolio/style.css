@@ -291,3 +291,28 @@ nav ul li a:hover {
     text-decoration: underline; 
 }
 }
+.gallery{
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    padding: 40px;
+    margin: 5px;
+    border: 1px solid#ccc;
+
+}
+.imagecontainer{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    
+
+}
+
+.imagecontainer img{
+    padding-left: 30px;
+    height: 200px;
+    width: 200px;
+}
